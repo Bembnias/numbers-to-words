@@ -17,13 +17,13 @@ A TypeScript library for converting numbers to their word representation in mult
 ## Installation
 
 ```bash
-npm install numbers-to-words
+npm install i18n-number-to-words
 ```
 
 ## Quick Start
 
 ```typescript
-import { numberToWords, getAmountInWords } from 'numbers-to-words'
+import { numberToWords, getAmountInWords } from 'i18n-number-to-words'
 
 // Polish (default)
 numberToWords({ number: 123 })
@@ -45,15 +45,13 @@ getAmountInWords({ amount: 43.75, locale: 'en-US', currency: 'USD' })
 ## Documentation
 
 - 📖 [Usage Guide](./USAGE.md) - Comprehensive usage examples
-- 🔄 [Migration Guide](./MIGRATION.md) - Upgrading from v1.x
-- 📝 [Changelog](./CHANGELOG.md) - Version history
 
 ## Usage
 
 ### Number to Words
 
 ```typescript
-import { numberToWords } from 'numbers-to-words'
+import { numberToWords } from 'i18n-number-to-words'
 
 // Polish (default)
 numberToWords({ number: 123 })
@@ -80,7 +78,7 @@ numberToWords({ number: 1000, locale: 'de-DE' })
 ### Amount in Words (with Currency)
 
 ```typescript
-import { getAmountInWords } from 'numbers-to-words'
+import { getAmountInWords } from 'i18n-number-to-words'
 
 // Polish with PLN (default)
 getAmountInWords({ amount: 43.75 })

@@ -1,5 +1,5 @@
 {
-  "name": "numbers-to-words",
+  "name": "i18n-number-to-words",
   "description": "A modern TypeScript library for converting numbers to words in multiple languages with multi currency support.",
   "version": "1.0.0",
   "main": "./dist/index.js",

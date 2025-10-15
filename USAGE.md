@@ -3,7 +3,7 @@
 ## Quick Start
 
 ```typescript
-import { numberToWords, getAmountInWords } from 'numbers-to-words'
+import { numberToWords, getAmountInWords } from 'i18n-number-to-words'
 
 // Convert number to words (Polish - default)
 const words = numberToWords({ number: 123 })
@@ -19,7 +19,7 @@ console.log(amount) // "czterdzieści trzy złote, 75/100"
 ### Multiple Languages
 
 ```typescript
-import { numberToWords } from 'numbers-to-words'
+import { numberToWords } from 'i18n-number-to-words'
 
 // Polish
 numberToWords({ number: 1234, locale: 'pl-PL' })
@@ -37,7 +37,7 @@ numberToWords({ number: 1234, locale: 'de-DE' })
 ### Multiple Currencies
 
 ```typescript
-import { getAmountInWords } from 'numbers-to-words'
+import { getAmountInWords } from 'i18n-number-to-words'
 
 // Polish Złoty (PLN)
 getAmountInWords({
@@ -140,7 +140,7 @@ import {
   type Currency,
   type NumberToWordsProps,
   type GetAmountInWordsProps,
-} from 'numbers-to-words'
+} from 'i18n-number-to-words'
 
 const locale: Locale = 'en-US'
 const currency: Currency = 'USD'
@@ -214,7 +214,7 @@ function generateInvoiceText(invoice: Invoice): string {
 ### Multi-language Support in Apps
 
 ```typescript
-import { getAmountInWords, type Locale, type Currency } from 'numbers-to-words'
+import { getAmountInWords, type Locale, type Currency } from 'i18n-number-to-words'
 
 class PaymentFormatter {
   constructor(private locale: Locale, private currency: Currency) {}
