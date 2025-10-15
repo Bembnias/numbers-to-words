@@ -1,16 +1,35 @@
 {
   "name": "numbers-to-words",
+  "description": "A modern JavaScript utility library delivering 'Numbers to words' functionality.",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
   "scripts": {
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "Number to words",
+    "Number to words converter",
+    "converter",
+    "utility",
+    "numbers",
+    "words",
+    "typescript",
+    "node"
+  ],
   "author": {
     "name": "Mateusz Bienias",
     "email": "bieniasdevs@gmail.com",
     "url": "https://github.com/Bembnias"
   },
-  "license": "ISC",
-  "description": ""
+  "repository": {
+    "url": "https://github.com/Bembnias/numbers-to-words"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.3"
+  }
 }
