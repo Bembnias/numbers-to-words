@@ -1,8 +1,18 @@
+# Source files
 /src
 /node_modules
 
+# Environment and OS files
 .env
 .DS_Store
 
+# Config files
 tsconfig.json
 tsup.config.ts
+
+# Development files
+test.ts
+
+# Git
+.git
+.gitignore
